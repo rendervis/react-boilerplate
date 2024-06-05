@@ -108,7 +108,7 @@ function CategoryCard({ category }: { category: Category }) {
   return (
     <CardContainer>
       <CardContainerImage>
-        <img className='' src={category.imageUrl} alt={category.title} />
+        <img src={category.imageUrl} alt={category.title} />
       </CardContainerImage>
       <CardContainerDescription>
         <div>
@@ -120,9 +120,11 @@ function CategoryCard({ category }: { category: Category }) {
               ))}
             </ul>
           )}
-          {category.description.map((description) => (
-            <p key={description}>{description}</p>
-          ))}
+          <>
+            {category.description.map((description) => (
+              <p key={description}>{description}</p>
+            ))}
+          </>
         </div>
       </CardContainerDescription>
     </CardContainer>
