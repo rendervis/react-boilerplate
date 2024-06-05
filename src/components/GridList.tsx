@@ -86,6 +86,9 @@ export default function GridList() {
         </h1>
       </SectionHeading>
       <CategoryList categories={categories} />
+      <CallToAction>
+        <CallToActionButton>Get Started</CallToActionButton>
+      </CallToAction>
     </RootLayout>
   )
 }
@@ -273,4 +276,22 @@ const CardContainerDescription = styled.div`
       line-height: 24px;
     }
   }
+`
+
+const CallToAction = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+`
+const CallToActionButton = styled.button`
+  padding: 0px 58px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 60px;
+  background: #1b264f;
+  border-radius: 12px;
 `
