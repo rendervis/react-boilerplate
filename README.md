@@ -1,9 +1,5 @@
 # Boilerplate and Starter for React JS 18+, Material-UI, Tailwind CSS v3.3 and Typescript
 
-<p align="center">
-<img src="public/assets/imgs/banner.png?raw=true" alt="React js starter banner" />
-</p>
-
 🚀🚀🚀 Boilerplate and Starter for React.js, Material-UI, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: React.js, TypeScript, Axios, ESLint, Prettier, Husky, Lint-Staged, VSCode, PostCSS, Tailwind CSS.
 
 Clone this project and use it to create your own [React.js](https://nextjs.org) project.
@@ -72,6 +68,3 @@ Open http://localhost:5173 with your favorite browser to see your project.
 
 You have access to the whole code source if you need further customization. The provided code is only example for you to start your project. The sky is the limit 🚀.
 
----
-
-Made with ♥ by [TrongSon](https://www.facebook.com/profile.php?id=100032736788526&locale=vi_VN)
